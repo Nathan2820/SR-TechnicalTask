@@ -1,0 +1,112 @@
+body {
+  font-family: Roboto;
+  color: #494948;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1%;
+  height: 40%;
+  width: 90%;
+  align-items: center;
+}
+
+button {
+  background-color: #34917C;
+  color: white;
+  border-radius: 25px;
+  height: 40px;
+  width: 180px;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #917C34;
+}
+
+.container {
+  border-style: solid;
+  border-color: #7C3491;
+  padding: 1px;
+  border-width: 2px;
+  margin: 2px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.images {
+  width: 270px;
+  height: 270px;
+  border-radius: 25px;
+}
+
+.info-images {
+  width: 250px;
+  height: 250px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 15%;
+}
+
+.aside-text {
+  width: 500px;
+  justify-content: center;
+  margin: 8% auto;
+}
+
+.img-container {
+  border-style: solid;
+  border-color: #7C3491;
+  border-radius: 32px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid;
+  width: 40%;
+  background-color: white;
+  font-family: Roboto;
+}
+
+.close {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  float: right;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.text-input {
+  width: 100%;
+  height: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
